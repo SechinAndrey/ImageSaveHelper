@@ -1,0 +1,17 @@
+{
+  "name": "Image Save Helper", // Название расширения
+  "version": "1.0", // Номер версии
+  "description": "Saves an image from a web page.", // Описание расширения
+
+  "permissions": [
+    "tabs" // Разрешить расширению работать с вкладками
+  ],
+
+  "browser_action": { // Элементы браузера
+    "default_title": "Hubble", // Название кнопки
+    "default_icon": "images/icon.png", // Иконка для кнопки
+    "popup": "popup.html" // Всплывающее окно
+  },
+
+  "options_page": "options.html" // Страница настроек
+}
